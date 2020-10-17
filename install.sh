@@ -1,8 +1,8 @@
 #!/bin/bash
 ################################################################################
 # Original Author:   crombiecrunch
-# Modified by : Xavatar (https://github.com/xavatar/yiimp_install_scrypt)
-# Web: https://www.xavatar.com    
+# Modified by : chilledgamer1985 (https://github.com/chilledgamer1985/yiimp_install_scrypt)
+# Web: theminingpool.co.uk
 #
 # Program:
 #   Install yiimp on Ubuntu 16.04/18.04 running Nginx, MariaDB, and php7.3
@@ -369,7 +369,7 @@
     
     # Compil Blocknotify
     cd ~
-    hide_output git clone https://github.com/tpruvot/yiimp
+    hide_output git clone https://github.com/chilledgamer1985/yiimp
     cd $HOME/yiimp/blocknotify
     sudo sed -i 's/tu8tu5/'$blckntifypass'/' blocknotify.cpp
     hide_output sudo make
